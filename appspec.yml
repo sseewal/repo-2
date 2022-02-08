@@ -6,7 +6,5 @@ files:
 hooks:
   BeforeInstall:
     - location: preinstall.sh
-      runas: root
   AfterInstall:
     - location: postinstall.sh
-      runas: root
