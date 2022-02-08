@@ -5,6 +5,6 @@ files:
     destination: /tmp/DEVOPS-228/
 hooks:
   BeforeInstall:
-    - location: preinstall.sh
+    - location: preinstall
   AfterInstall:
-    - location: postinstall.sh
+    - location: postinstall
