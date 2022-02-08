@@ -5,8 +5,8 @@ files:
     destination: /tmp/
 hooks:
   BeforeInstall:
-    - location: preinstall
+    - location: preinstall1
       runas: root
   AfterInstall:
-    - location: postinstall
+    - location: postinstall1
       runas: root
